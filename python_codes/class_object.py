@@ -2,6 +2,7 @@ class Human:
     def __init__(self, n, g):
         self.name = n
         self.gender = g
+        print("I am a constructor")
 
     def works_at(self):
         if self.name == "Hasan":
